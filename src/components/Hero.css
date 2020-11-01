@@ -1,0 +1,40 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.hero-container {
+    background: linear-gradient(90deg, rgb(184, 29, 158) 0%, rgb(184, 173, 18) 100%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    padding-top: 80px;
+}
+
+.hero-container > h1 {
+    color: black;
+    font-size: 50px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.hero-btns {
+    margin-top: 26px;
+}
+
+.hero-btns .btn {
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container > h1 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+}

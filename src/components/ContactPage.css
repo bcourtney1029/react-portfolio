@@ -1,0 +1,17 @@
+.contacts {
+    padding-top: 100px;
+    background-color: rgb(223, 226, 14);
+}
+
+.contacts > h1 {
+    padding-bottom: 25px;
+}
+.contacts > p {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bottom {
+    padding-bottom: 369px;
+}
